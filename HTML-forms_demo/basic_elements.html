@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form elements</title>
+</head>
+<body>
+	<p>Simple /and very ugly/ registration form</p>
+	<form method="post" action="path/to/some.php">
+		<p>
+			<label for="username">Username</label>
+			<input id="username" type="text" name="username" value="username ...">
+		</p>
+		<p>
+			<label for="password">Password</label>
+			<input id="password" type="password" name="password" value="password">
+		</p>
+		<p>
+			Repeat Password
+			<input type="password" name="password_repeat" value="password_repeat">
+		</p>
+		<p>
+			First name
+			<input type="text" name="first_name" value="first name ...">
+		</p>
+		<p>
+			Last name
+			<input type="text" name="last_name" value="last name ...">
+		</p>
+		<p>
+			Do you have any food requirements
+		</p>
+		<p>
+			<label for="pos">Yes</label>
+			<input id="pos" type="radio" name="food" value="positive">
+			<label for="neg">No</label>
+			<input id="neg" type="radio" name="food" value="negative">
+		</p>
+		<p>
+			Food requirements
+		</p>
+		vegan
+		<input type="checkbox" name="food_requirements" value="vegan">
+		no preservatives
+		<input type="checkbox" name="food_requirements" value="no_preservatives">
+		no sugar
+		<input type="checkbox" name="food_requirements" value="no_sugar">
+		<p>Choose catalogue type</p>
+		<select name="catalogue">
+			<option value="1">Digital catalogue</option>
+			<option value="2">Paper catalogue</option>
+			<option value="3">By e-mail</option>
+		</select>
+		<p>
+			<input type="submit" value="submit">
+		</p>
+	</form>	
+</body>
+</html>

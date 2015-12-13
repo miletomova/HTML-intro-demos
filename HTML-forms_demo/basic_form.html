@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>basic form</title>
+</head>
+<body>
+	<p>Login form</p>
+	<form method="post" action="">
+		<label for="username">Username</label>
+		<input id="username" type="text" name="username" placeholder="username ...">
+		<p>Password</p>
+		<input type="password" name="password" placeholder="password">
+		<p>
+			Do you have any food requirements?
+		</p>
+		<p>
+			Yes
+			<input type="radio" name="food" value="pos">
+			No
+			<input type="radio" name="food" value="neg">
+		</p>
+		<p>
+			Your requirements
+		</p>
+		<p>
+			vegan
+			<input type="checkbox" name="food_requirements" value="vegan">
+			no sugar
+			<input type="checkbox" name="food_requirements" value="no_sugar">
+			no preservatives
+			<input type="checkbox" name="food_requirements" value="preserv">
+		</p>
+		<p>
+		Образование
+			<select name="education">
+				<option value="1">начално</option>
+				<option value="2">средно</option>
+				<option value="3">висше образование</option>
+				<option value="4">без образоване</option>
+			</select>
+		</p>
+		<p>
+			<input type="submit" name="submit" value="Login">
+		</p>
+	</form>	
+</body>
+</html>

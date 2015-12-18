@@ -1,0 +1,15 @@
+p {
+	background-color: red;
+}
+div, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+.plain, #nice, #ugly {
+	color: blue;
+}
+
+div#header div#nav ul li {
+	margin-left: 20px;
+}

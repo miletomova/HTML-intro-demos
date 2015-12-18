@@ -1,0 +1,24 @@
+#blue {
+	background-color: #F6C348;
+}
+#blue h2 {
+	color: #7291B7;
+}
+#blue p,  #white{
+	color: #8E8282;
+}
+span {
+	font-weight: bold;
+}
+#white {
+	background-color: #04FBF8;
+}
+#shop {
+	background-color: #802C2C;
+}
+#shop h2 {
+	color: #F6CC39;
+}
+#shop p {
+	color: #1A162F;
+}

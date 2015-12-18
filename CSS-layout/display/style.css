@@ -1,0 +1,18 @@
+
+li {
+	display: inline;
+	background-color: #C375B2;
+}
+div {
+	width: 300px;
+	height: 450px;
+	background-color: #501DD1;
+	color: #D5F738
+}
+span {
+	background-color: #FB9504;
+	color: #125EF9;
+	display: block;
+	width: 200px;
+	height: 200px;
+}

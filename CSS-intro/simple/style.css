@@ -1,0 +1,9 @@
+body {
+	background-color: green;
+}
+div {
+	color: blue;
+}
+div#first, div#third {
+	color: white;
+}

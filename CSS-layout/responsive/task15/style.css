@@ -1,47 +1,68 @@
-html, body, div {
-	margin: 0;
-	padding: 0;
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
 }
+
 body {
-	background-color: #816A6A;
-	font-size: 40px;
+    background-color: #816A6A;
+    font-size: 40px;
 }
+
 #wrapper {
-	width: 80%;
-	margin-left: 10%;
-	background-color: #FD992E;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #FD992E;
 }
+
 #header {
-	width: 100%;
-	height: 120px;
-	background-color: #BDE8C3;
+    width: 100%;
+    height: 120px;
+    background-color: #BDE8C3;
 }
+
 #content {
 	position: relative;
-	padding-top: 20px;
-	padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 #main {
-	width: 77%;
-	height: 600px;
-	background-color: #85B7F0;
+	position: relative;
+    width: 77%;
+    height: 600px;
+    background-color: #85B7F0;
 }
+
 #sidebar {
-	width: 20%;
-	height: 600px;
-	background-color: #3740F3;
-	position: absolute;
-	top: 20px;
-	left: 80%;
+    width: 20%;
+    height: 600px;
+    background-color: #3740F3;
+    position: absolute;
+    top: 20px;
+    left: 80%;
 }
+
 #footer {
-	width: 100%;
-	height: 100px;
-	background-color: #2C0B0B;
-	color: #FFFFFF;
+    width: 100%;
+    height: 100px;
+    background-color: #2C0B0B;
+    color: #FFFFFF;
 }
-#gnr {
-	width: 200px;
-	height: 200px;
-	background-color: #945F5F
+
+#main div {
+    width: 48%;
+    background-color: #B3F664;
+    height: 100%;
+}
+
+#main div img {
+    width: 100%;
+}
+
+#rock {
+    position: absolute;
+    top: 0;
+    left: 52%;
 }

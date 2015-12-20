@@ -1,0 +1,31 @@
+html, body, div {
+	margin: 0;
+	padding: 0;
+}
+#static {
+	background-color: #FA0505;
+	width: 300px;
+	height: 300px;
+}
+#rel {
+	background-color: #AAFF31;
+	width: 300px;
+	height: 300px;
+	position: relative;
+	top: -300px;
+	left: 300px;
+}
+#abs {
+	position: absolute;
+	background-color: #0C41DA;
+	width: 150px;
+	height: 150px;
+	top: 0;
+	right: 0;
+}
+p {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #F5ED0D;
+}
